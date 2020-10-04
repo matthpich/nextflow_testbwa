@@ -8,7 +8,7 @@ refbwaindexChannel      = Channel.fromPath("${refbwaindex}/*")
 process ls {
     
 	input:
-		file hostbwaallindex from refbwaindexChannel.collect()
+		file refbwaindex from refbwaindexChannel.collect()
         
         """
         ls -lha
