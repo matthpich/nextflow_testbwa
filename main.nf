@@ -12,6 +12,7 @@ process ls {
         
         """
         ls -lha
+	df -h
         """
         
 }
