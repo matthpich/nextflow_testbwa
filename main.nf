@@ -14,6 +14,7 @@ process ls {
         ls -lha
 	ls -lha /tmp
 	ls -lha /ebstmp
+	ls -lha /
 	df -h
         """
         
