@@ -12,10 +12,16 @@ process ls {
         
         """
 	pwd
+	echo "============"
         ls -lha
+	echo "============"
 	ls -lha /tmp
+	echo "============"
 	ls -lha /
+	echo "============"
 	df -h
+	echo "============"
+	ls -lha /etc/hosts
         """
         
 }
