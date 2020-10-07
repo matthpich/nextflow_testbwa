@@ -11,6 +11,7 @@ process ls {
 		file refbwaindex from refbwaindexChannel.collect()
         
         """
+	pwd
         ls -lha
 	ls -lha /tmp
 	ls -lha /
