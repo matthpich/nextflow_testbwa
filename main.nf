@@ -12,6 +12,7 @@ process ls {
         
         """
         ls -lha
+	ls -lha /tmp
 	df -h
         """
         
