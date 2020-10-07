@@ -11,6 +11,7 @@ process ls {
 		file refbwaindex from refbwaindexChannel.collect()
         
         """
+	whoami
 	pwd
 	echo "============"
         ls -lha
